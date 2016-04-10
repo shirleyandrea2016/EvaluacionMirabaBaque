@@ -1,0 +1,74 @@
+/***Ejemplo de media Query***/
+/*@media screen and (min-width: 480px)
+{
+	body{
+		background: navy;
+	}
+}
+
+@media screen and (min-width: 660px)
+{
+	body{
+		background: orange;
+	}
+}*/
+
+/*** Layout de 2 colunmas***/
+@media screen and (min-width: 480px)
+{
+	#primary { 
+		width: 50%;
+		float: left;
+		}
+
+	#secondary { 
+		width: 40%;
+		float: right;
+		}	
+/*** Layout de 3 colunmas
+5%*3=15%, 100%-15%=85%, 85%/3=28.333%***/
+	#galeria li { 
+		width: 28.3333%;
+		}	
+/***alinear fotos de servisios en 2 columnas
+#galeria1 li 
+{ 
+		width: 42.5%;
+}*/
+
+/*contrataca a partir del 4 elemento*/
+#galeria li:nth-child(3n+1) 
+{ 
+		clear: left;
+}	
+
+/**/
+.profile-photo { 
+		float: left;
+		margin: 0 5% 120px 0;
+		}
+/***Ajustando la navegación(cuando la página esta ajustada aparece un menú)***/
+nav{
+	background: none;
+	float: right;
+	font-size: 1.125em;
+	margin-right: 5%;
+	text-align: right;
+	width: 45%;
+}
+
+/***Ajustando el encabezado***/
+#logo{ float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+}
+
+h1{	font-size: 1.5em; }
+h2{	font-size: 0.825em;
+	margin-bottom: 20px }
+/*finalizando encabezado*/
+header{	border-bottom: 5px solid #599a68;
+	margin-bottom: 60px;
+}
+
