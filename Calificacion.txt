@@ -1,0 +1,12 @@
+Detalle Calificacion
+Requisitos Funcionales (5 Puntos): 5 Puntos. Cumplio con todo. Excelente.
+Errores Manejados o no tiene en consola (2 Puntos): 2 Puntos. No hay errores de consola y Si valido mayusculas y minusculas.
+Buen Uso de Funciones, Ciclos y DRY (2 Puntos): 2 Puntos. Excelente uso de funciones. Uso principio DRY.
+Comentarios (1 Punto): 1 Punto. Buenos comentarios por secciones.
+Subio bien a github (1 Punto bonus): 1 Punto.
+Total: 11 Puntos.
+ 
+Comentarios Profesor:
+Cumplio con todo. La mejor prueba practica que he calificado hasta el momento.
+
+https://github.com/shirleyandrea2016/EvaluacionMirabaBaque
